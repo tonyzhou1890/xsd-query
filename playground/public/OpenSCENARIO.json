@@ -1,0 +1,565 @@
+{
+  "$id": "hello_world.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "This JSON Schema file was generated from hello_world.xsd on Wed Feb 25 2026 17:48:07 GMT+0800 (中国标准时间).  For more information please see http://www.xsd2jsonschema.org",
+  "description": "Schema tag attributes: xmlns:xsd='http://www.w3.org/2001/XMLSchema'",
+  "properties": {
+    "OpenSCENARIO": {
+      "$ref": "FORWARD_REFERENCE#/to/NO_NAMESPACE/OpenScenario"
+    },
+    "parameter": {
+      "$ref": "#/definitions/parameter"
+    },
+    "Boolean": {
+      "$ref": "#/definitions/Boolean"
+    },
+    "DateTime": {
+      "$ref": "#/definitions/DateTime"
+    },
+    "Double": {
+      "$ref": "#/definitions/Double"
+    },
+    "Int": {
+      "$ref": "#/definitions/Int"
+    },
+    "String": {
+      "$ref": "#/definitions/String"
+    },
+    "UnsignedInt": {
+      "$ref": "#/definitions/UnsignedInt"
+    },
+    "UnsignedShort": {
+      "$ref": "#/definitions/UnsignedShort"
+    },
+    "CloudState": {
+      "$ref": "#/definitions/CloudState"
+    },
+    "ConditionEdge": {
+      "$ref": "#/definitions/ConditionEdge"
+    },
+    "DynamicsDimension": {
+      "$ref": "#/definitions/DynamicsDimension"
+    },
+    "DynamicsShape": {
+      "$ref": "#/definitions/DynamicsShape"
+    },
+    "FollowingMode": {
+      "$ref": "#/definitions/FollowingMode"
+    },
+    "MiscObjectCategory": {
+      "$ref": "#/definitions/MiscObjectCategory"
+    },
+    "ObjectType": {
+      "$ref": "#/definitions/ObjectType"
+    },
+    "ParameterType": {
+      "$ref": "#/definitions/ParameterType"
+    },
+    "PedestrianCategory": {
+      "$ref": "#/definitions/PedestrianCategory"
+    },
+    "PrecipitationType": {
+      "$ref": "#/definitions/PrecipitationType"
+    },
+    "Priority": {
+      "$ref": "#/definitions/Priority"
+    },
+    "ReferenceContext": {
+      "$ref": "#/definitions/ReferenceContext"
+    },
+    "RelativeDistanceType": {
+      "$ref": "#/definitions/RelativeDistanceType"
+    },
+    "RouteStrategy": {
+      "$ref": "#/definitions/RouteStrategy"
+    },
+    "Rule": {
+      "$ref": "#/definitions/Rule"
+    },
+    "SpeedTargetValueType": {
+      "$ref": "#/definitions/SpeedTargetValueType"
+    },
+    "StoryboardElementState": {
+      "$ref": "#/definitions/StoryboardElementState"
+    },
+    "StoryboardElementType": {
+      "$ref": "#/definitions/StoryboardElementType"
+    },
+    "TriggeringEntitiesRule": {
+      "$ref": "#/definitions/TriggeringEntitiesRule"
+    },
+    "VehicleCategory": {
+      "$ref": "#/definitions/VehicleCategory"
+    },
+    "AbsoluteSpeed": {
+      "$ref": "#/definitions/AbsoluteSpeed"
+    },
+    "AbsoluteTargetLane": {
+      "$ref": "#/definitions/AbsoluteTargetLane"
+    },
+    "AbsoluteTargetLaneOffset": {
+      "$ref": "#/definitions/AbsoluteTargetLaneOffset"
+    },
+    "AbsoluteTargetSpeed": {
+      "$ref": "#/definitions/AbsoluteTargetSpeed"
+    },
+    "AccelerationCondition": {
+      "$ref": "#/definitions/AccelerationCondition"
+    },
+    "AcquirePositionAction": {
+      "$ref": "#/definitions/AcquirePositionAction"
+    }
+  },
+  "type": "object",
+  "anyOf": [
+    {
+      "required": [
+        "OpenSCENARIO"
+      ]
+    },
+    {
+      "required": [
+        "parameter"
+      ]
+    },
+    {
+      "required": [
+        "Boolean"
+      ]
+    },
+    {
+      "required": [
+        "DateTime"
+      ]
+    },
+    {
+      "required": [
+        "Double"
+      ]
+    },
+    {
+      "required": [
+        "Int"
+      ]
+    },
+    {
+      "required": [
+        "String"
+      ]
+    },
+    {
+      "required": [
+        "UnsignedInt"
+      ]
+    },
+    {
+      "required": [
+        "UnsignedShort"
+      ]
+    },
+    {
+      "required": [
+        "CloudState"
+      ]
+    },
+    {
+      "required": [
+        "ConditionEdge"
+      ]
+    },
+    {
+      "required": [
+        "DynamicsDimension"
+      ]
+    },
+    {
+      "required": [
+        "DynamicsShape"
+      ]
+    },
+    {
+      "required": [
+        "FollowingMode"
+      ]
+    },
+    {
+      "required": [
+        "MiscObjectCategory"
+      ]
+    },
+    {
+      "required": [
+        "ObjectType"
+      ]
+    },
+    {
+      "required": [
+        "ParameterType"
+      ]
+    },
+    {
+      "required": [
+        "PedestrianCategory"
+      ]
+    },
+    {
+      "required": [
+        "PrecipitationType"
+      ]
+    },
+    {
+      "required": [
+        "Priority"
+      ]
+    },
+    {
+      "required": [
+        "ReferenceContext"
+      ]
+    },
+    {
+      "required": [
+        "RelativeDistanceType"
+      ]
+    },
+    {
+      "required": [
+        "RouteStrategy"
+      ]
+    },
+    {
+      "required": [
+        "Rule"
+      ]
+    },
+    {
+      "required": [
+        "SpeedTargetValueType"
+      ]
+    },
+    {
+      "required": [
+        "StoryboardElementState"
+      ]
+    },
+    {
+      "required": [
+        "StoryboardElementType"
+      ]
+    },
+    {
+      "required": [
+        "TriggeringEntitiesRule"
+      ]
+    },
+    {
+      "required": [
+        "VehicleCategory"
+      ]
+    },
+    {
+      "required": [
+        "AbsoluteSpeed"
+      ]
+    },
+    {
+      "required": [
+        "AbsoluteTargetLane"
+      ]
+    },
+    {
+      "required": [
+        "AbsoluteTargetLaneOffset"
+      ]
+    },
+    {
+      "required": [
+        "AbsoluteTargetSpeed"
+      ]
+    },
+    {
+      "required": [
+        "AccelerationCondition"
+      ]
+    },
+    {
+      "required": [
+        "AcquirePositionAction"
+      ]
+    }
+  ],
+  "definitions": {
+    "OpenSCENARIO": {
+      "$ref": "FORWARD_REFERENCE#/to/NO_NAMESPACE/OpenScenario"
+    },
+    "parameter": {
+      "pattern": "[$][A-Za-z_][A-Za-z0-9_]*",
+      "type": "string"
+    },
+    "Boolean": {},
+    "DateTime": {},
+    "Double": {},
+    "Int": {},
+    "String": {},
+    "UnsignedInt": {},
+    "UnsignedShort": {},
+    "CloudState": {
+      "enum": [
+        "cloudy",
+        "free",
+        "overcast",
+        "rainy",
+        "skyOff"
+      ],
+      "type": "string"
+    },
+    "undefined": {
+      "$ref": "#/definitions/parameter"
+    },
+    "ConditionEdge": {
+      "enum": [
+        "falling",
+        "none",
+        "rising",
+        "risingOrFalling"
+      ],
+      "type": "string"
+    },
+    "DynamicsDimension": {
+      "enum": [
+        "distance",
+        "rate",
+        "time"
+      ],
+      "type": "string"
+    },
+    "DynamicsShape": {
+      "enum": [
+        "cubic",
+        "linear",
+        "sinusoidal",
+        "step"
+      ],
+      "type": "string"
+    },
+    "FollowingMode": {
+      "enum": [
+        "follow",
+        "position"
+      ],
+      "type": "string"
+    },
+    "MiscObjectCategory": {
+      "enum": [
+        "barrier",
+        "building",
+        "crosswalk",
+        "gantry",
+        "none",
+        "obstacle",
+        "parkingSpace",
+        "patch",
+        "pole",
+        "railing",
+        "roadMark",
+        "soundBarrier",
+        "streetLamp",
+        "trafficIsland",
+        "tree",
+        "vegetation",
+        "wind"
+      ],
+      "type": "string"
+    },
+    "ObjectType": {
+      "enum": [
+        "miscellaneous",
+        "pedestrian",
+        "vehicle"
+      ],
+      "type": "string"
+    },
+    "ParameterType": {
+      "enum": [
+        "boolean",
+        "dateTime",
+        "double",
+        "integer",
+        "string",
+        "unsignedInt",
+        "unsignedShort"
+      ],
+      "type": "string"
+    },
+    "PedestrianCategory": {
+      "enum": [
+        "animal",
+        "pedestrian",
+        "wheelchair"
+      ],
+      "type": "string"
+    },
+    "PrecipitationType": {
+      "enum": [
+        "dry",
+        "rain",
+        "snow"
+      ],
+      "type": "string"
+    },
+    "Priority": {
+      "enum": [
+        "overwrite",
+        "parallel",
+        "skip"
+      ],
+      "type": "string"
+    },
+    "ReferenceContext": {
+      "enum": [
+        "absolute",
+        "relative"
+      ],
+      "type": "string"
+    },
+    "RelativeDistanceType": {
+      "enum": [
+        "cartesianDistance",
+        "lateral",
+        "longitudinal"
+      ],
+      "type": "string"
+    },
+    "RouteStrategy": {
+      "enum": [
+        "fastest",
+        "leastIntersections",
+        "random",
+        "shortest"
+      ],
+      "type": "string"
+    },
+    "Rule": {
+      "enum": [
+        "equalTo",
+        "greaterThan",
+        "lessThan"
+      ],
+      "type": "string"
+    },
+    "SpeedTargetValueType": {
+      "enum": [
+        "delta",
+        "factor"
+      ],
+      "type": "string"
+    },
+    "StoryboardElementState": {
+      "enum": [
+        "completeState",
+        "endTransition",
+        "runningState",
+        "skipTransition",
+        "standbyState",
+        "startTransition",
+        "stopTransition"
+      ],
+      "type": "string"
+    },
+    "StoryboardElementType": {
+      "enum": [
+        "act",
+        "action",
+        "event",
+        "maneuver",
+        "maneuverGroup",
+        "story"
+      ],
+      "type": "string"
+    },
+    "TriggeringEntitiesRule": {
+      "enum": [
+        "all",
+        "any"
+      ],
+      "type": "string"
+    },
+    "VehicleCategory": {
+      "enum": [
+        "bicycle",
+        "bus",
+        "car",
+        "motorbike",
+        "semitrailer",
+        "trailer",
+        "train",
+        "tram",
+        "truck",
+        "van"
+      ],
+      "type": "string"
+    },
+    "AbsoluteSpeed": {
+      "required": [
+        "@value"
+      ],
+      "properties": {
+        "@value": {
+          "$ref": "#/definitions/Double"
+        }
+      },
+      "type": "object"
+    },
+    "AbsoluteTargetLane": {
+      "required": [
+        "@value"
+      ],
+      "properties": {
+        "@value": {
+          "$ref": "#/definitions/String"
+        }
+      },
+      "type": "object"
+    },
+    "AbsoluteTargetLaneOffset": {
+      "required": [
+        "@value"
+      ],
+      "properties": {
+        "@value": {
+          "$ref": "#/definitions/Double"
+        }
+      },
+      "type": "object"
+    },
+    "AbsoluteTargetSpeed": {
+      "required": [
+        "@value"
+      ],
+      "properties": {
+        "@value": {
+          "$ref": "#/definitions/Double"
+        }
+      },
+      "type": "object"
+    },
+    "AccelerationCondition": {
+      "required": [
+        "@rule",
+        "@value"
+      ],
+      "properties": {
+        "@rule": {
+          "$ref": "#/definitions/Rule"
+        },
+        "@value": {
+          "$ref": "#/definitions/Double"
+        }
+      },
+      "type": "object"
+    },
+    "AcquirePositionAction": {
+      "type": "object"
+    }
+  }
+}
